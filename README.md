@@ -63,3 +63,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 **Como** sistema  
 **Quero** notificar o sistema de cobrança após a matrícula de um aluno  
 **Para** que seja emitida a cobrança referente ao semestre.
+
+## Diagrama de casos de uso
+
+<img width="300" alt="UseCase Diagram0" src="https://github.com/user-attachments/assets/02398794-f779-49cc-9c31-034bc5c59bbc" />
+
