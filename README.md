@@ -1,5 +1,5 @@
 # Nome do projeto
-Sistema de matriculas.
+Sistema de Matrículas.
 
 ## Integrantes
 * Henrique Lima Volponi
@@ -12,57 +12,93 @@ Sistema de matriculas.
 ## Instruções de utilização
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-## Histórias de Usuário
+---
 
-### 1. Login de Usuário
-**Como** aluno, professor ou funcionário da secretaria  
-**Quero** efetuar login no sistema  
-**Para** acessar as funcionalidades de acordo com meu perfil.
+# Histórias de Usuário
 
-### 2. Geração de Currículo
-**Como** funcionário da secretaria  
-**Quero** gerar o currículo do semestre  
-**Para** disponibilizar as disciplinas e informações aos alunos.
+### Épico 1: Gestão Acadêmica (Funcionalidades da Secretaria)
 
-### 3. Manutenção de Dados
-**Como** funcionário da secretaria  
-**Quero** cadastrar, atualizar ou remover dados de disciplinas, professores e alunos  
-**Para** manter as informações sempre corretas no sistema.
+Este épico cobre todas as tarefas de configuração e gerenciamento do sistema, realizadas pela secretaria da universidade.
 
-### 4. Matrícula em Disciplinas
-**Como** aluno  
-**Quero** me matricular em até 4 disciplinas obrigatórias e 2 optativas  
-**Para** formar minha grade para o semestre.
+**US01: Gerenciar Cursos**
 
-### 5. Cancelamento de Matrícula
-**Como** aluno  
-**Quero** cancelar disciplinas em que me matriculei  
-**Para** ajustar minha grade antes do fim do período de matrículas.
+**Como um** usuário da Secretaria,
+**Eu quero** poder criar, visualizar, editar e remover cursos no sistema,
+**Para que** a oferta acadêmica da universidade esteja sempre atualizada.
 
-### 6. Consulta de Disciplinas
-**Como** aluno  
-**Quero** visualizar todas as disciplinas disponíveis no semestre  
-**Para** escolher aquelas que atendam meus interesses e necessidades.
+**US02: Gerenciar Disciplinas**
 
-### 7. Consulta de Alunos Matriculados
-**Como** professor  
-**Quero** visualizar a lista de alunos matriculados em minhas disciplinas  
-**Para** planejar minhas aulas e atividades.
+**Como um** usuário da Secretaria,
+**Eu quero** cadastrar, editar e associar disciplinas a um curso,
+**Para que** os alunos saibam quais disciplinas compõem seu curso.
 
-### 8. Encerramento Automático de Matrícula
-**Como** sistema  
-**Quero** encerrar matrículas quando a disciplina atingir 60 alunos  
-**Para** evitar exceder a capacidade máxima.
+**US03: Gerenciar Usuários**
 
-### 9. Cancelamento Automático de Disciplinas
-**Como** sistema  
-**Quero** cancelar disciplinas com menos de 3 alunos inscritos no final do período  
-**Para** manter apenas turmas viáveis.
+**Como um** usuário da Secretaria,
+**Eu quero** cadastrar e gerenciar os usuários (Alunos e Professores), definindo seus perfis de acesso,
+**Para que** eles possam acessar o sistema com as permissões corretas.
 
-### 10. Notificação ao Sistema de Cobrança
-**Como** sistema  
-**Quero** notificar o sistema de cobrança após a matrícula de um aluno  
-**Para** que seja emitida a cobrança referente ao semestre.
+**US04: Definir Período de Matrícula**
+
+**Como um** usuário da Secretaria,
+**Eu quero** definir as datas de início e fim do período de matrículas,
+**Para que** os alunos só possam realizar matrículas dentro da janela de tempo permitida.
+
+### Épico 2: Processo de Matrícula (Funcionalidades do Aluno)
+
+Este épico descreve a jornada do aluno ao interagir com o sistema.
+
+**US05: Realizar Login no Sistema**
+
+**Como um** usuário (Aluno, Professor ou Secretaria),
+**Eu quero** fazer login no sistema usando meu usuário e senha,
+**Para que** eu possa acessar as funcionalidades correspondentes ao meu perfil.
+
+**US06: Visualizar Disciplinas Disponíveis**
+
+**Como um** Aluno,
+**Eu quero** visualizar a lista de disciplinas oferecidas para o meu curso no próximo semestre, com informações relevantes,
+**Para que** eu possa decidir em quais me matricular.
+
+**US07: Realizar Matrícula em Disciplinas**
+
+**Como um** Aluno,
+**Eu quero** selecionar e confirmar minha matrícula nas disciplinas desejadas,
+**Para que** eu possa garantir minha vaga e cursar o próximo semestre.
+
+**US08: Cancelar Matrícula em uma Disciplina**
+
+**Como um** Aluno,
+**Eu quero** poder cancelar a matrícula em uma ou mais disciplinas,
+**Para que** eu possa ajustar minha grade horária antes do fim do período.
+
+### Épico 3: Consulta (Funcionalidades do Professor)
+
+Este épico foca na necessidade do professor de visualizar informações.
+
+**US09: Consultar Alunos Matriculados**
+
+**Como um** Professor,
+**Eu quero** visualizar a lista de todos os alunos matriculados em cada uma das minhas disciplinas,
+**Para que** eu possa ter o controle da minha turma e fazer a chamada.
+
+### Épico 4: Processos Automáticos e Integrações (Sistema)
+
+Este épico descreve ações realizadas pelo próprio sistema, geralmente de forma automática.
+
+**US10: Cancelar Disciplinas sem Quórum Mínimo**
+
+**Como** o Sistema,
+**Eu quero** verificar, ao final do período de matrículas, todas as disciplinas que não atingiram o mínimo de 3 alunos e cancelá-las automaticamente,
+**Para que** a universidade não tenha custos com turmas inviáveis.
+
+**US11: Notificar Sistema de Cobranças**
+
+**Como** o Sistema,
+**Eu quero** enviar os dados consolidados das matrículas de cada aluno para o sistema de cobranças,
+**Para que** o processo de faturamento do semestre possa ser iniciado.
+
+---
 
 ## Diagrama de casos de uso
 
