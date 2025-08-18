@@ -1,5 +1,5 @@
 # Nome do projeto
-Sistema de matriculas.
+Sistema de Matrículas.
 
 ## Integrantes
 * Henrique Lima Volponi
