@@ -102,5 +102,5 @@ Este épico descreve ações realizadas pelo próprio sistema, geralmente de for
 
 # Diagrama de Casos de Uso
 
-<img width="300" alt="UseCase Diagram0" src="https://github.com/user-attachments/assets/02398794-f779-49cc-9c31-034bc5c59bbc" />
+<img width="500" alt="UseCase Diagram0" src="https://github.com/user-attachments/assets/a4bab1ba-6197-4c4a-b90e-a36910d59a70" />
 
