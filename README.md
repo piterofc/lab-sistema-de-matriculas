@@ -108,5 +108,6 @@ Este épico descreve ações realizadas pelo próprio sistema, geralmente de for
 
 # Diagrama de Classes
 
-<img width="500" alt="Diagram sistema de matricula" src="https://github.com/user-attachments/assets/25b4ec14-344d-4a9c-bf2f-75ffde39e260" />
+<img width="800" alt="Diagrama de casos de uso" src="https://github.com/user-attachments/assets/2cce3676-8a6f-4f7c-a503-cb19116c50b9" />
 
+---
