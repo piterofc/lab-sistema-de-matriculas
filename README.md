@@ -104,3 +104,10 @@ Este épico descreve ações realizadas pelo próprio sistema, geralmente de for
 
 <img width="500" alt="UseCase Diagram0" src="https://github.com/user-attachments/assets/fee54959-25e1-48ac-a0eb-ea4ab374a305" />
 
+---
+
+# Diagrama de Classes
+
+<img width="800" alt="Diagrama de casos de uso" src="https://github.com/user-attachments/assets/2cce3676-8a6f-4f7c-a503-cb19116c50b9" />
+
+---
